@@ -1,0 +1,55 @@
+{
+  "rdapConformance" : [ "nro_rdap_profile_0", "rdap_level_0" ],
+  "notices" : [ {
+    "title" : "Terms of Service",
+    "description" : [ "By using the ARIN RDAP/Whois service, you are agreeing to the RDAP/Whois Terms of Use" ],
+    "links" : [ {
+      "value" : "https://rdap.arin.net/registry/entity/GUARD1-ARIN",
+      "rel" : "terms-of-service",
+      "type" : "text/html",
+      "href" : "https://www.arin.net/resources/registry/whois/tou/"
+    } ]
+  }, {
+    "title" : "Whois Inaccuracy Reporting",
+    "description" : [ "If you see inaccuracies in the results, please visit: " ],
+    "links" : [ {
+      "value" : "https://rdap.arin.net/registry/entity/GUARD1-ARIN",
+      "rel" : "inaccuracy-report",
+      "type" : "text/html",
+      "href" : "https://www.arin.net/resources/registry/whois/inaccuracy_reporting/"
+    } ]
+  }, {
+    "title" : "Copyright Notice",
+    "description" : [ "Copyright 1997-2024, American Registry for Internet Numbers, Ltd." ]
+  } ],
+  "handle" : "GUARD1-ARIN",
+  "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "adr", {
+    "label" : "2620 HORIZON DR SE\nBLDG MAIN FLR 1 RM 100\nGRAND RAPIDS\nMI\n49546\nUnited States"
+  }, "text", [ "", "", "", "", "", "", "" ] ], [ "fn", { }, "text", "LUIS GUARDIA" ], [ "n", { }, "text", [ "GUARDIA", "LUIS", "", "", "" ] ], [ "kind", { }, "text", "individual" ], [ "email", { }, "text", "ldelaguardia@auroradx.com" ], [ "tel", {
+    "type" : [ "work", "voice" ]
+  }, "text", "+1-561-241-2830" ] ] ],
+  "remarks" : [ {
+    "title" : "Unvalidated POC",
+    "description" : [ "ARIN has attempted to validate the data for this POC, but has received no response from the POC since 2019-03-17" ]
+  } ],
+  "links" : [ {
+    "value" : "https://rdap.arin.net/registry/entity/GUARD1-ARIN",
+    "rel" : "self",
+    "type" : "application/rdap+json",
+    "href" : "https://rdap.arin.net/registry/entity/GUARD1-ARIN"
+  }, {
+    "value" : "https://rdap.arin.net/registry/entity/GUARD1-ARIN",
+    "rel" : "alternate",
+    "type" : "application/xml",
+    "href" : "https://whois.arin.net/rest/poc/GUARD1-ARIN"
+  } ],
+  "events" : [ {
+    "eventAction" : "last changed",
+    "eventDate" : "2018-03-17T07:02:45-04:00"
+  }, {
+    "eventAction" : "registration",
+    "eventDate" : "2011-03-20T17:27:10-04:00"
+  } ],
+  "port43" : "whois.arin.net",
+  "objectClassName" : "entity"
+}
