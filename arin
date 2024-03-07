@@ -1,0 +1,122 @@
+{
+  "rdapConformance" : [ "nro_rdap_profile_0", "rdap_level_0" ],
+  "notices" : [ {
+    "title" : "Terms of Service",
+    "description" : [ "By using the ARIN RDAP/Whois service, you are agreeing to the RDAP/Whois Terms of Use" ],
+    "links" : [ {
+      "value" : "https://rdap.arin.net/registry/entity/AD",
+      "rel" : "terms-of-service",
+      "type" : "text/html",
+      "href" : "https://www.arin.net/resources/registry/whois/tou/"
+    } ]
+  }, {
+    "title" : "Whois Inaccuracy Reporting",
+    "description" : [ "If you see inaccuracies in the results, please visit: " ],
+    "links" : [ {
+      "value" : "https://rdap.arin.net/registry/entity/AD",
+      "rel" : "inaccuracy-report",
+      "type" : "text/html",
+      "href" : "https://www.arin.net/resources/registry/whois/inaccuracy_reporting/"
+    } ]
+  }, {
+    "title" : "Copyright Notice",
+    "description" : [ "Copyright 1997-2024, American Registry for Internet Numbers, Ltd." ]
+  } ],
+  "handle" : "AD",
+  "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "fn", { }, "text", "AURORA DIAGNOSTICS" ], [ "adr", {
+    "label" : "2620 HORIZON DR SE\nBLDG MAIN FLR 1 RM 100\nGRAND RAPIDS\nMI\n49546\nUnited States"
+  }, "text", [ "", "", "", "", "", "", "" ] ], [ "kind", { }, "text", "org" ] ] ],
+  "links" : [ {
+    "value" : "https://rdap.arin.net/registry/entity/AD",
+    "rel" : "self",
+    "type" : "application/rdap+json",
+    "href" : "https://rdap.arin.net/registry/entity/AD"
+  }, {
+    "value" : "https://rdap.arin.net/registry/entity/AD",
+    "rel" : "alternate",
+    "type" : "application/xml",
+    "href" : "https://whois.arin.net/rest/org/AD"
+  } ],
+  "events" : [ {
+    "eventAction" : "last changed",
+    "eventDate" : "2011-09-24T08:30:57-04:00"
+  }, {
+    "eventAction" : "registration",
+    "eventDate" : "2011-03-20T17:27:11-04:00"
+  } ],
+  "entities" : [ {
+    "handle" : "GUARD1-ARIN",
+    "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "adr", {
+      "label" : "2620 HORIZON DR SE\nBLDG MAIN FLR 1 RM 100\nGRAND RAPIDS\nMI\n49546\nUnited States"
+    }, "text", [ "", "", "", "", "", "", "" ] ], [ "fn", { }, "text", "LUIS GUARDIA" ], [ "n", { }, "text", [ "GUARDIA", "LUIS", "", "", "" ] ], [ "kind", { }, "text", "individual" ], [ "email", { }, "text", "ldelaguardia@auroradx.com" ], [ "tel", {
+      "type" : [ "work", "voice" ]
+    }, "text", "+1-561-241-2830" ] ] ],
+    "roles" : [ "technical", "abuse", "administrative" ],
+    "remarks" : [ {
+      "title" : "Unvalidated POC",
+      "description" : [ "ARIN has attempted to validate the data for this POC, but has received no response from the POC since 2019-03-17" ]
+    } ],
+    "links" : [ {
+      "value" : "https://rdap.arin.net/registry/entity/AD",
+      "rel" : "self",
+      "type" : "application/rdap+json",
+      "href" : "https://rdap.arin.net/registry/entity/GUARD1-ARIN"
+    }, {
+      "value" : "https://rdap.arin.net/registry/entity/AD",
+      "rel" : "alternate",
+      "type" : "application/xml",
+      "href" : "https://whois.arin.net/rest/poc/GUARD1-ARIN"
+    } ],
+    "events" : [ {
+      "eventAction" : "last changed",
+      "eventDate" : "2018-03-17T07:02:45-04:00"
+    }, {
+      "eventAction" : "registration",
+      "eventDate" : "2011-03-20T17:27:10-04:00"
+    } ],
+    "port43" : "whois.arin.net",
+    "objectClassName" : "entity"
+  } ],
+  "networks" : [ {
+    "handle" : "NET-72-164-16-192-1",
+    "startAddress" : "72.164.16.192",
+    "endAddress" : "72.164.16.199",
+    "ipVersion" : "v4",
+    "name" : "Q0412-72-164-16-192",
+    "type" : "ASSIGNMENT",
+    "parentHandle" : "NET-72-164-0-0-1",
+    "events" : [ {
+      "eventAction" : "last changed",
+      "eventDate" : "2016-04-12T10:31:34-04:00"
+    }, {
+      "eventAction" : "registration",
+      "eventDate" : "2016-04-12T10:31:34-04:00"
+    } ],
+    "links" : [ {
+      "value" : "https://rdap.arin.net/registry/entity/AD",
+      "rel" : "self",
+      "type" : "application/rdap+json",
+      "href" : "https://rdap.arin.net/registry/ip/72.164.16.192"
+    }, {
+      "value" : "https://rdap.arin.net/registry/entity/AD",
+      "rel" : "alternate",
+      "type" : "application/xml",
+      "href" : "https://whois.arin.net/rest/net/NET-72-164-16-192-1"
+    }, {
+      "value" : "https://rdap.arin.net/registry/entity/AD",
+      "rel" : "up",
+      "type" : "application/rdap+json",
+      "href" : "https://rdap.arin.net/registry/ip/72.164.0.0/15"
+    } ],
+    "port43" : "whois.arin.net",
+    "status" : [ "active" ],
+    "objectClassName" : "ip network",
+    "cidr0_cidrs" : [ {
+      "v4prefix" : "72.164.16.192",
+      "length" : 29
+    } ],
+    "arin_originas0_originautnums" : [ 209 ]
+  } ],
+  "port43" : "whois.arin.net",
+  "objectClassName" : "entity"
+}
